@@ -677,16 +677,17 @@ const content = {
       <SectionTitle num="09">Análisis Económico</SectionTitle>
 
       <Sub>10.1 — Ecuaciones financieras de evaluación del proyecto</Sub>
+      
       <Formula label="Payback Simple (Período de recupero)">
-        {"PB = \\frac{\\text{Inversi\\acute{o}n \\, Total } [\\$]}{\\text{Ahorro \\, Anual \\, Total } [\\$/a\\tilde{n}o]}"}
+        {"PB = \\frac{\\text{Inversión Total } [\\$]}{\\text{Ahorro Anual Total } [\\$/a\\tilde{n}o]}"}
       </Formula>
       
       <Formula label="Costo Nivelado de la Energía (LCOE)">
-        {"LCOE = \\frac{\\text{Inversi\\acute{o}n \\, Inicial } + \\sum_{t=1}^{N} \\frac{O\\&M_t}{(1+r)^t}}{\\sum_{t=1}^{N} \\frac{E_t}{(1+r)^t}} \\quad [\\$/kWh]"}
+        {"LCOE = \\frac{\\text{Inversión Inicial} + \\sum_{t=1}^{N} \\frac{O\\&M_t}{(1+r)^t}}{\\sum_{t=1}^{N} \\frac{E_t}{(1+r)^t}} \\quad [\\$/kWh]"}
       </Formula>
 
       <Formula label="Valor Actual Neto (VAN)">
-        {"VAN = -\\text{Inversi\\acute{o}n} + \\sum_{t=1}^{25} \\frac{\\text{Ahorro}_t}{(1 + r)^t}"}
+        {"VAN = -\\text{Inversión} + \\sum_{t=1}^{25} \\frac{\\text{Ahorro}_t}{(1 + r)^t}"}
       </Formula>
 
       <Sub>10.2 — Modelo de degradación de potencia cristalina</Sub>
