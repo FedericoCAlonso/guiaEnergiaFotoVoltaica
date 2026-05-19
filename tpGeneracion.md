@@ -9,27 +9,39 @@ Actualmente muestra un excendente en el consumo de potencia dando como consecuen
 
 ### 1.2 Análisis del consumo histórico
 
-Mes|Cargo fijo|Potencia Consumida \[kW\]|Potencia Contratada \[kW\]|Potencia adquirida \[kW\]|Potencia Excedida \[kW\]|Cargo por potencia contratada 	Cargo por potencia adquirida	Cargo por potencia Excedida	Energía activa [kWh]	Cargo variable	Stot	Impuestos	Tot. 
-Enero	40.691,06	44,00	16	16	28	 $ 305.102,40 	 $ 299.218,00 	 $ 800.893,80 	4864	 $ 400.618,50 	 $ 1.805.832,70 	 $ 675.832,89 	 $ 2.481.665,58 
-Febrero	40.691,06	49,00	16	16	33	 $ 305.102,40 	 $ 299.218,00 	 $ 943.910,55 	5291	 $ 435.787,92 	 $ 1.984.018,87 	 $ 742.519,06 	 $ 2.726.537,94 
-Marzo	40.691,06	35,00	16	16	19	 $ 305.102,40 	 $ 299.218,00 	 $ 543.463,65 	4646	 $ 382.663,14 	 $ 1.530.447,19 	 $ 572.769,86 	 $ 2.103.217,06 
-Abril	40.691,06	34,68	16	16	18,68	 $ 305.102,40 	 $ 299.218,00 	 $ 534.310,58 	4.173	 $ 343.704,97 	 $ 1.482.335,95 	 $ 554.764,23 	 $ 2.037.100,18 
+Mes |$P_{cm}$ [kW]|$P_{ct}$ [kW]|$P_a$ [kW]|$P_e$ [kW] |$E$ [kWh] 
+---|---|---|---|---|---
+Enero|44,00|16|16|28|4864 
+Febrero|49,00|16|16|33|5291 
+Marzo|35,00|16|16|19|4646 
+Abril|34,68|16|16|18,68|4173 
 
 **Referencias**
 
-* $Cf$: Cargo fijo
-* $P_{cm}$: Potencia Consumida \[kW\]
-* $P_{ct}$: Potencia Contratada \[kW\]
-* $P_{a}$: Potencia Adquirida \[kW\]
-* $P_{e}$: Potencia Excedida \[kWw\]
-* $C_{P_{ct}}$: Cargo por potencia contratada \[$\]
-* $C_{P_a}$: Cargo por potencia adquirida \[$\]
-* $C_{P_e}$: Cargo por potencia excedida \[$\]
-* 
+* $P_{cm}$: Potencia Consumida [kW]
+* $P_{ct}$: Potencia Contratada [kW]
+* $P_{a}$: Potencia Adquirida [kW]
+* $P_{e}$: Potencia Excedida [kW]
+* $E$: Energía activa [kWh]
+
+Como se muestra en la tabla, la potencia consumida es más del doble de la potencia contratada, lo que genera sobrecostos.
 
 
-### 1.3 Perfil de carga — supuestos y justificación
+
+### 1.3 Perfil de consumo — supuestos y justificación
+
+La demanda de la instalación se realiza en horario diurno, de 8 a 18, según indica el cliente.
+
 ### 1.4 Composición de la factura eléctrica
+
+El costo de la factura eléctrica está compuesto por los siguientes cargos: 
+- Cargo Fijo entre un 
+- Impuestos
+- Cargo por potencia contratada (según factura)
+- Cargo por potencia excedida (según factura)
+- Cargo por energía consumida (según factura)
+- Cargo variable
+
 ### 1.5 Problemas identificados
          — Exceso de potencia contratada vs. demanda real
          — Cargo por potencia excedida como componente dominante
