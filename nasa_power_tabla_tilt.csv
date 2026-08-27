@@ -1,0 +1,27 @@
+-BEGIN HEADER-
+NASA/POWER Source Native Resolution Climatology in LST
+20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020) 
+Location: Latitude  -40.72   Longitude -66.19 
+Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 212.34 meters
+The value for missing source data that cannot be computed or is outside of the sources availability range: -999 
+Parameter(s): 
+SI_TILTED_AVG_HORIZONTAL          SRB V4/CERES SYN1deg Solar Irradiance for Equator Facing Horizontal Surface (kW-hr/m^2/day) 
+SI_TILTED_AVG_LAT_MINUS15         SRB V4/CERES SYN1deg Solar Irradiance for Equator Facing Latitude Minus 15 Tilt (kW-hr/m^2/day) 
+SI_TILTED_AVG_LATITUDE            SRB V4/CERES SYN1deg Solar Irradiance for Equator Facing Latitude Tilt (kW-hr/m^2/day) 
+SI_TILTED_AVG_LAT_PLUS15          SRB V4/CERES SYN1deg Solar Irradiance for Equator Facing Latitude Plus 15 Tilt (kW-hr/m^2/day) 
+SI_TILTED_AVG_VERTICAL            SRB V4/CERES SYN1deg Solar Irradiance for Equator Facing Vertical Surface (kW-hr/m^2/day) 
+SI_TILTED_AVG_OPTIMAL             SRB V4/CERES SYN1deg Solar Irradiance Optimal (kW-hr/m^2/day) 
+SI_TILTED_AVG_OPTIMAL_ANG         SRB V4/CERES SYN1deg Solar Irradiance Optimal Angle (Degrees) 
+SI_TILTED_AVG_OPTIMAL_ANG_ORT     SRB V4/CERES SYN1deg Solar Irradiance Tilted Surface Orientation (N/S Orientation) 
+Message(s): 
+The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020) 
+-END HEADER-
+PARAMETER,JAN,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC,ANN
+SI_TILTED_AVG_HORIZONTAL,7.968,6.8407,5.2994,3.6665,2.2474,1.7926,2.0342,2.9486,4.3498,5.7713,7.2403,7.9927,4.8458
+SI_TILTED_AVG_LAT_MINUS15,7.8058,7.2031,6.1982,4.86,3.258,2.7552,3.0506,3.9307,5.1962,6.1908,7.1998,7.669,5.4432
+SI_TILTED_AVG_LATITUDE,7.1498,6.888,6.2671,5.2025,3.6173,3.1219,3.4272,4.2281,5.322,6.0026,6.6888,6.9516,5.4055
+SI_TILTED_AVG_LAT_PLUS15,6.175,6.2042,5.9851,5.2457,3.7694,3.3079,3.6055,4.2895,5.1569,5.501,5.843,5.9386,5.0851
+SI_TILTED_AVG_VERTICAL,3.0427,3.5357,4.1472,4.2295,3.3029,3.0034,3.2227,3.5414,3.7692,3.3982,3.0996,2.8687,3.4301
+SI_TILTED_AVG_OPTIMAL,8.0494,7.223,6.2834,5.2651,3.7738,3.3286,3.6185,4.2967,5.3225,6.1918,7.3543,8.0203,5.4631
+SI_TILTED_AVG_OPTIMAL_ANG,9.5,21.0,36.0,50.0,58.5,62.5,60.5,52.0,39.5,24.5,11.5,5.5,31.0
+SI_TILTED_AVG_OPTIMAL_ANG_ORT,N,N,N,N,N,N,N,N,N,N,N,N,N

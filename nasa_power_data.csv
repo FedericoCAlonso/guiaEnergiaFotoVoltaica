@@ -1,0 +1,13 @@
+-BEGIN HEADER-
+NASA/POWER Source Native Resolution Climatology in LST
+20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020) 
+Location: Latitude  -40.72   Longitude -66.19 
+Elevation from MERRA-2: Average for 0.5 x 0.625 degree lat/lon region = 212.34 meters
+The value for missing source data that cannot be computed or is outside of the sources availability range: -999 
+Parameter(s): 
+ALLSKY_SFC_SW_DWN     SRB V4/CERES SYN1deg All Sky Surface Shortwave Downward Irradiance (kW-hr/m^2/day) 
+Message(s): 
+The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020) 
+-END HEADER-
+PARAMETER,JAN,FEB,MAR,APR,MAY,JUN,JUL,AUG,SEP,OCT,NOV,DEC,ANN
+ALLSKY_SFC_SW_DWN,8.1528,6.9758,5.3486,3.6746,2.2471,1.7669,2.0347,2.9482,4.3937,5.8721,7.3855,8.2037,4.9082
