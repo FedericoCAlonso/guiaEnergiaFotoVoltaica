@@ -1,0 +1,44 @@
+---
+title: "Ejemplo de R Markdown"
+author: "Federico"
+date: "2026-08-27"
+output: html_document    
+---
+
+## 1. Definición de Datos y Función
+
+```{r configuracion}
+# 1. Creamos la tabla de datos inicial
+tabla_datos <- data.frame(
+  Mes = 1:6,
+  Valor_Inicial = c(10, 15, 22, 35, 50, 75)
+)
+
+# 2. Definimos la función matemática
+calcular_crecimiento <- function(valor) {
+  resultado <- valor * 1.5
+  return(resultado)
+}
+
+# 3. Aplicamos la función para crear la columna Valor_Final
+tabla_datos\(Valor_Final <- calcular_crecimiento(tabla_datos\)Valor_Inicial)
+
+# Mostramos la tabla en el documento
+knitr::kable(tabla_datos, caption = "Tabla de Valores Calculados")
+```
+
+## 2. Gráfico Automático
+
+```{r grafico, echo=FALSE}
+# Creamos el gráfico base
+plot(tabla_datos\(Mes, tabla_datos\)Valor_Inicial, type = "b", col = "blue", 
+     ylim = c(0, 120), xlab = "Mes", ylab = "Valores", 
+     main = "Evolución de Valores Iniciales vs. Calculados", pch = 16)
+
+# Añadimos la línea de la columna Valor_Final
+lines(tabla_datos\(Mes, tabla_datos\)Valor_Final, type = "b", col = "red", pch = 17)
+
+# Agregamos la leyenda
+legend("topleft", legend = c("Valor Inicial", "Valor Final"), 
+       col = c("blue", "red"), pch = c(16, 17), lty = 1)
+```
